@@ -9,7 +9,7 @@ const App = ():JSX.Element => {
       <main>
         <section className="min-h-screen flex flex-col justify-center items-center bg-about bg-cover bg-center gap-8 text-white">
           <h2 className="text-3xl md:text-6xl font-bold text-center">Mejora tus habilidades de programación</h2>
-          <p>UPCode es una plataforma exclusiva para los y las estudiantes de UPC que busquen mejorar la lógica de programación mediante la resolución de ejercicios de algoritmia.</p>
+          <p className="text-center">UPCode es una plataforma exclusiva para los y las estudiantes de UPC que busquen mejorar la lógica de programación mediante la resolución de ejercicios de algoritmia.</p>
           <a href="/login" className="px-4 py-2 bg-yellow-400 hover:bg-yellow-300 duration-150 hover:text-gray-900 font-bold rounded-md">Ir a la aplicación</a>
         </section>
         <section className="flex flex-col justify-center items-center bg-slate-900 gap-8 text-white px-4 py-8">
